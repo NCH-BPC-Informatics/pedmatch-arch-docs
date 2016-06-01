@@ -15,7 +15,9 @@
 * Slides held by BPC (for later shipment to MDA)
 * Scrolls sent to MGL for extraction
 * Block remaining, if any, banked at BPC
-* MGL creates DNA, cDNA and records yield, QC, etc. in STARS
+* MGL creates DNA, RNA and records yield, QC, etc. in STARS
+* MGL creates cDNA from RNA and records QC in STARS
+* MGL signing director reviews and approves QC documentation ("sign off")
 * Shipment in STARS created to include: Aliquot of blood DNA, Aliquot of tumor DNA, Aliquot of tumor cDNA, Slide of tumor
 * STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
 
