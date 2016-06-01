@@ -15,8 +15,8 @@
 * Slides held by BPC (for later shipment to MDA)
 * Scrolls sent to MGL for extraction
 * Block remaining, if any, banked at BPC
-* MGL creates RNA, cDNA and records yield, QC, etc. in STARS
-* Aliquots of blood, cDNA, DNA from tumor, slide tied to a shipment in STARS
+* MGL creates DNA, cDNA and records yield, QC, etc. in STARS
+* Shipment in STARS created to include: Aliquot of blood DNA, Aliquot of tumor DNA, Aliquot of tumor cDNA
 * STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
@@ -38,7 +38,7 @@
       "internal_use_only": {
         "stars_patient_id": "ABCXYZ",
         "stars_specimen_id": "ABCXYZ-ABC123",
-        "stars_specimen_type": "Fresh Blood",
+        "stars_specimen_type": "Blood Fresh",
         "received_ts": "2016-04-25T15:17:11+00:00",
         "qc_ts": "2016-04-25T16:21:34+00:00"
       }
@@ -51,7 +51,7 @@
       "internal_use_only": {
         "stars_patient_id": "ABCXYZ",
         "stars_specimen_id": "ABCXYZ-ABC124",
-        "stars_specimen_type": "Fresh Tissue Primary",
+        "stars_specimen_type": "Paraffin Block Primary",
         "received_ts": "2016-04-25T15:17:11+00:00",
         "qc_ts": "2016-04-25T16:21:34+00:00"
       }
