@@ -17,6 +17,7 @@
 * Block remaining, if any, banked at BPC
 * MGL creates RNA, cDNA and records yield, QC, etc. in STARS
 * Aliquots of blood, cDNA, DNA from tumor, slide tied to a shipment in STARS
+* STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
 
 #### Sample Integration Messages (JSON format)
 
@@ -56,4 +57,9 @@
     }
   ]
 }
+```
+
+##### NCH-1-IM-2
+```json
+(To be defined)
 ```
