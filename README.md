@@ -1,4 +1,4 @@
-# Architectural documentation for the NCH portion of the PedMATCH initiative
+# Project Architectural documentation NCH aspects of PED-MATCH
 
 ## Content
 * [Presentations and Schematics](schematics)
