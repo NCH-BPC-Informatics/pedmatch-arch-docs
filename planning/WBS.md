@@ -2,7 +2,11 @@
 #### NCH BPC Informatics work items
 
 #### Initial Design _(3.5 FTE, 2 calendar weeks)_
-* Finalize functional requirements (scenarios)
+* Finalize Scenarios
+  * Workflow steps
+  * Message samples
+  * Label samples
+  * Patient shipping manifest samples
 * Finalize non-functional requirements (logging, performance, firewall/security, exception handling, versioning)
 * Finalize API design for scenarios
   * Specimen Received service (request skeleton, response skeleton, documentation)
