@@ -21,3 +21,8 @@
 * Variation: COG registration data indiates no enrollment in relevant protocol(s)
 * Variation: ...other failure scenarios (e.g., case level)...?
 * Variation: ...other failure scenarios (e.g., specimen level)...?
+
+## Audits:
+_Put these elsewhere..._
+* Cases with Incomplete Material Received (7-30 days)
+* Specimens lacking "Specimen Received" messaging (2-30 days)
