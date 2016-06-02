@@ -6,7 +6,7 @@
 * Block sent to Core Morph (to cut slides)
 * Tumor paperwork given to coordinator (next day)
 * Tumor paperwork QC'd against STARS accessioning info
-* STARS poller sends tumor specimen received message; See [NCH-4-IM-1](#nch-4-im-1)
+* STARS poller sends tumor specimen received message; See [NCH-5-IM-1](#nch-5-im-1)
 * Stained slide sent to BPC
 * Stained slide sent to path reviewer
 * Block sent to Core Morph when path review complete
@@ -18,7 +18,7 @@
 * MGL creates cDNA from extracted tumor RNA and records yield, QC, etc. in STARS
 * MGL signing director reviews and approves QC documentation ("sign off")
 * Shipment in STARS created to include: Aliquot of tumor DNA, Aliquot of tumor cDNA, Tumor slide(s)
-* STARS poller sends specimen shipped messages; See [NCH-4-IM-2](#nch-4-im-2)
+* STARS poller sends specimen shipped messages; See [NCH-5-IM-2](#nch-5-im-2)
 * Time passes
 * Case shows up on "Cases with Incomplete Material Received (7-30 days)" and is handled manually
 
