@@ -8,10 +8,11 @@
 * [NCH-7](NCH-7.md) - Variation: Blood arrives, Lengthy delay, No tumor available
 * Variation: QC paperwork failure (Blood)
 * Variation: QC paperwork failure (Tumor)
-* Variation: Failure during extraction, Request more, Lengthy delay
-* Variation: Failure during extraction, Request more, Told no more available
-* Variation: Failure during extraction, Request more, Receive more
-* Variation: Failure during extraction, Request more, Receive more, Failure during extraction
+* Variation: Failure during extraction, Cut more from existing block
+* Variation: Failure during extraction, Request more from site, Lengthy delay
+* Variation: Failure during extraction, Request more from site, Told no more available
+* Variation: Failure during extraction, Request more from site, Received more
+* Variation: Failure during extraction, Request more from site, Received more, Failure during extraction
 * Variation: Tumor fails QC, Request more, Receive more
 * Variation: Tumor fails QC, Request more, Told no more available
 * Variation: Tumor fails QC, Request more, Lengthy delay, Receive more
