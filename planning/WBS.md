@@ -1,9 +1,5 @@
 # Work Breakdown Structure (WBS)
 #### NCH BPC Informatics work items
-_Does not yet include:_
-* _Additional STARS development for a "Test" to trigger Specimen Failure_
-* _STARS Label Creator work_
-* _Patient Shipping Manifest work_
 
 #### Initial Design
 * Finalize functional requirements (scenarios)
@@ -14,9 +10,9 @@ _Does not yet include:_
   * Specimen Failure service (request skeleton, response skeleton, documentation)
   * Advisements (awaiting additional specimen, etc.)
 * Initial design - Message Tracking and Correlation schema
-* Initial design - Message Tracking and Correlation services
-* Initial schema - Ped-MATCH IQ schema
+* Initial design - Ped-MATCH IQ
 * Initial design - STARS Poller
+* Initial design - Labels
 * Initial design - Patient Shipping Manifest generation
 * Initial design - Audits and alerts
 * Initial design - Integration Messaging Facility/UI
@@ -31,8 +27,9 @@ _Does not yet include:_
 * Iteration - TDD for Specimen Received polling and messaging
 * Iteration - TDD for Specimen Shipped polling and messaging
 * Iteration - TDD for Specimen Failure polling and messaging
-* Iteration - Audits, alerts, message UI
-
+* Iteration - Labels, Manifests, Audits, Alerts, Diagnostic message logging UI
+* Integration Testing
+* 
 #### Productionization
 * Production infrastructure requests (app servers, databases, security)
 * Deployments to production
