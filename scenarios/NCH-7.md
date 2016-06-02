@@ -9,7 +9,7 @@
 * STARS poller sends specimen received message; See [NCH-7-IM-1](#nch-7-im-1)
 * MGL extracts DNA from blood and records yield, QC, etc. in STARS
 * Time passes
-* Case shows up on "Cases with Incomplete Material Received (7-30 days)" and MGL attempts to arrange for receipt of matching tumor. _If successful, this is equivalent to [NCH-6](NCH-6.md)_
+* Case shows up on "Cases with Incomplete Material Received (7-30 days)" and MGL attempts to arrange for receipt of matching tumor. _(If successful, this is intead equivalent to [NCH-6](NCH-6.md))_
 * MGL determines that no additional tumor is forthcoming and flags case failed due to insufficient materials
 * STARS poller sends failure message; See [NCH-7-IM-2](#nch-7-im-2)
 
