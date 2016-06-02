@@ -20,7 +20,7 @@
 * Shipment in STARS created to include: Aliquot of tumor DNA, Aliquot of tumor cDNA, Tumor slide(s)
 * STARS poller sends specimen shipped messages; See [NCH-5-IM-2](#nch-5-im-2)
 * Time passes
-* Case shows up on "Cases with Incomplete Material Received (7-30 days)" and is handled manually
+* Case shows up on "Cases with Incomplete Material Received (7-30 days)" due to lack of blood specimen
 
 ---
 
