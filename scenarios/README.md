@@ -5,7 +5,7 @@
 * [NCH-4](NCH-4.md) - Variation: Tumor arrives, Lengthy delay, Blood arives
 * [NCH-5](NCH-5.md) - Variation: Tumor arrives, Lengthy delay, No blood available
 * Variation: Blood arrives, Lengthy delay, Tumor arives
-* Variation: Blood arrives, Lengthy delay, No tumor available
+* [NCH-7](NCH-7.md) - Variation: Blood arrives, Lengthy delay, No tumor available
 * Variation: QC paperwork failure (Blood)
 * Variation: QC paperwork failure (Tumor)
 * Variation: Failure during extraction, Request more, Lengthy delay
