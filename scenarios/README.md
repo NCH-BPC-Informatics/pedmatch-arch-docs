@@ -2,7 +2,7 @@
 * [NCH-1](NCH-1.md) - Reference Baseline
 * Variation: Tumor arrives, Short delay, Blood arives (i.e., different shipments)
 * Variation: Blood arrives, Short delay, Tumor arives (i.e., different shipments)
-* Variation: Tumor arrives, Lengthy delay, Blood arives
+* [NCH-4](NCH-4.md) - Variation: Tumor arrives, Lengthy delay, Blood arives
 * Variation: Tumor arrives, Lengthy delay, No blood available
 * Variation: Blood arrives, Lengthy delay, Tumor arives
 * Variation: Blood arrives, Lengthy delay, No tumor available
