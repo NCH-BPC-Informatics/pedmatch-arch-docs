@@ -3,7 +3,7 @@
 * Variation: Tumor arrives, Short delay, Blood arives (i.e., different shipments)
 * Variation: Blood arrives, Short delay, Tumor arives (i.e., different shipments)
 * [NCH-4](NCH-4.md) - Variation: Tumor arrives, Lengthy delay, Blood arives
-* Variation: Tumor arrives, Lengthy delay, No blood available
+* [NCH-5](NCH-5.md) - Variation: Tumor arrives, Lengthy delay, No blood available
 * Variation: Blood arrives, Lengthy delay, Tumor arives
 * Variation: Blood arrives, Lengthy delay, No tumor available
 * Variation: QC paperwork failure (Blood)
