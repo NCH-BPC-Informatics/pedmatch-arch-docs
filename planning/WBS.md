@@ -1,7 +1,7 @@
 # Work Breakdown Structure (WBS)
 #### NCH BPC Informatics work items
 
-#### Initial Design
+#### Initial Design _(3.5 FTE, 2 calendar weeks)_
 * Finalize functional requirements (scenarios)
 * Finalize non-functional requirements (logging, performance, firewall/security, exception handling, versioning)
 * Finalize API design for scenarios
@@ -20,7 +20,7 @@
 * Draft infrastructure requests (app servers, databases, security)
 * Team design review
 
-#### Development Iterations
+#### Development Iterations _(2.5 FTE, 6 calendar weeks)_
 * Establish development environment (IDE/tools, SCM repositories, databases, ESB server, unit test datasets, CI builds)
 * Establish integration/QA platform (databases, ESB server)
 * Iteration - TDD for STARS Poller skeleton, message generation, message tracking
@@ -28,9 +28,9 @@
 * Iteration - TDD for Specimen Shipped polling and messaging
 * Iteration - TDD for Specimen Failure polling and messaging
 * Iteration - Labels, Manifests, Audits, Alerts, Diagnostic message logging UI
-* Integration Testing
+* System Integration Testing
 
-#### Productionization
+#### Productionization _(1.5 FTE, 2 calendar weeks)_
 * Production infrastructure requests (app servers, databases, security)
 * Deployments to production
 * Security review of production platform
