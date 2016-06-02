@@ -29,7 +29,7 @@
 * Iteration - TDD for Specimen Failure polling and messaging
 * Iteration - Labels, Manifests, Audits, Alerts, Diagnostic message logging UI
 * Integration Testing
-* 
+
 #### Productionization
 * Production infrastructure requests (app servers, databases, security)
 * Deployments to production
