@@ -188,7 +188,7 @@ _(6 specimen shipped messages)_
 ```json
 {
   "header": {
-    "msg_guid": "7912901b-7285-40cc-9269-1cae961a0ea7",
+    "msg_guid": "3037ddec-0081-4e22-8448-721ab4ad76b4",
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
   "specimen_shipped": {
@@ -210,7 +210,7 @@ _(6 specimen shipped messages)_
 ```json
 {
   "header": {
-    "msg_guid": "7912901b-7285-40cc-9269-1cae961a0ea7",
+    "msg_guid": "07daa0de-9a19-42c3-be79-0237dfacf134",
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
   "specimen_shipped": {
@@ -224,6 +224,66 @@ _(6 specimen shipped messages)_
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0BJ64F"
+    }
+  }
+}
+```
+
+```json
+{
+  "header": {
+    "msg_guid": "37c491ec-d91a-4e95-a0cf-291dadf60b2f",
+    "msg_dttm": "2016-05-02T18:30:17+00:00"
+  },
+  "specimen_shipped": {
+    "patient_id": "894561",
+    "type": "Paraffin Unstained Primary",
+    "carrier": "Federal Express",
+    "tracking_id": "1234 1234 1234",
+    "shipped_ts": "2016-05-02T18:30:17+00:00",
+    "internal_use_only": {
+      "stars_patient_id": "ABCXYZ",
+      "stars_specimen_id": "ABCXYZ-0BJ6A5"
+    }
+  }
+}
+```
+
+```json
+{
+  "header": {
+    "msg_guid": "0cbfe261-293b-4ef2-ade6-eec2e342bb57",
+    "msg_dttm": "2016-05-02T18:30:17+00:00"
+  },
+  "specimen_shipped": {
+    "patient_id": "894561",
+    "type": "Paraffin Unstained Primary",
+    "carrier": "Federal Express",
+    "tracking_id": "1234 1234 1234",
+    "shipped_ts": "2016-05-02T18:30:17+00:00",
+    "internal_use_only": {
+      "stars_patient_id": "ABCXYZ",
+      "stars_specimen_id": "ABCXYZ-0BJ6A6"
+    }
+  }
+}
+```
+
+```json
+{
+  "header": {
+    "msg_guid": "5c5f38ea-c2b4-4519-b252-82d8b8043975",
+    "msg_dttm": "2016-05-02T18:30:17+00:00"
+  },
+  "specimen_shipped": {
+    "patient_id": "894561",
+    "type": "Paraffin Unstained Primary",
+    "carrier": "Federal Express",
+    "tracking_id": "1234 1234 1234",
+    "shipped_ts": "2016-05-02T18:30:17+00:00",
+    "internal_use_only": {
+      "stars_patient_id": "ABCXYZ",
+      "stars_specimen_id": "ABCXYZ-0BJ6A7"
     }
   }
 }
