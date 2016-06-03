@@ -48,7 +48,7 @@
 | **NCH Barcode**    | 0BJ64B          |                |
 | **MSN**            | 00012D          |                |
 | **2D Barcode**     | 00012D          | _(MSN)_          |
-| **Specimen Type**  | Paraffin Block Primary DNA |                |
+| **Specimen Type**  | Paraffin Scroll Primary DNA |                |
 | **Concentration**  | 25 ng/ul        |                |
 | **Yield**          | 10 ul           |                |
 
@@ -58,10 +58,10 @@
 |----------------|-----------------|----------------|
 | **Registration #** | 894561          | _(PSN / Patient ID)_ |
 | **BSN**            | 125             |                |
-| **NCH Barcode**    | 0BJ64B          |                |
-| **MSN**            | 00012D          |                |
-| **2D Barcode**     | 00012D          | _(MSN)_          |
-| **Specimen Type**  | Paraffin Block Primary cDNA |                |
+| **NCH Barcode**    | 0BJ64F          |                |
+| **MSN**            | 00012C          |                |
+| **2D Barcode**     | 00012C          | _(MSN)_          |
+| **Specimen Type**  | Paraffin Scroll Primary cDNA |                |
 | **Concentration**  |                 |                |
 | **Yield**          | 10 ul           |                |
 
