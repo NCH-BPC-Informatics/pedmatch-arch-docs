@@ -162,7 +162,6 @@ _(2 specimen received messages)_
 
 ##### NCH-1-IM-2
 _(6 specimen shipped messages)_
-*DRAFT - To be defined*
 
 ```json
 {
