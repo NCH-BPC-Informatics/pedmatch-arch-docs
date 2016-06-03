@@ -29,41 +29,41 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 
 ###### Label - Sequencing Specimen #1 (DNA from Blood)
 
-| FIELD          | SAMPLE VALUE(S) | NOTES          |
+||||
 |----------------|-----------------|----------------|
-| Registration # | 894561          | ("Patient ID") |
-| NCH Barcode    | 0BJ64A          |                |
-| MSN            | 00013D          |                |
-| 2D Barcode     | 00013D          | (MSN)          |
-| Specimen Type  | Blood Fresh DNA |                |
-| Concentration  | 25 ng/ul        |                |
-| Yield          | 10 ul           |                |
+| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **NCH Barcode**    | 0BJ64A          |                |
+| **MSN**            | 00013D          |                |
+| **2D Barcode**     | 00013D          | _(MSN)_          |
+| **Specimen Type**  | Blood Fresh DNA |                |
+| **Concentration**  | 25 ng/ul        |                |
+| **Yield**          | 10 ul           |                |
 
 ###### Label - Sequencing Specimen #2 (DNA extracted from Tumor)
 
-| FIELD          | SAMPLE VALUE(S) | NOTES          |
+||||
 |----------------|-----------------|----------------|
-| Registration # | 894561          | ("Patient ID") |
-| BSN            | 125             |                |
-| NCH Barcode    | 0BJ64B          |                |
-| MSN            | 00012D          |                |
-| 2D Barcode     | 00012D          | (MSN)          |
-| Specimen Type  | Paraffin Block Primary DNA |                |
-| Concentration  | 25 ng/ul        |                |
-| Yield          | 10 ul           |                |
+| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **BSN**            | 125             |                |
+| **NCH Barcode**    | 0BJ64B          |                |
+| **MSN**            | 00012D          |                |
+| **2D Barcode**     | 00012D          | _(MSN)_          |
+| **Specimen Type**  | Paraffin Block Primary DNA |                |
+| **Concentration**  | 25 ng/ul        |                |
+| **Yield**          | 10 ul           |                |
 
 ###### Label - Sequencing Specimen #3 (cDNA generated from Tumor)
 
-| FIELD          | SAMPLE VALUE(S) | NOTES          |
+||||
 |----------------|-----------------|----------------|
-| Registration # | 894561          | ("Patient ID") |
-| BSN            | 125             |                |
-| NCH Barcode    | 0BJ64B          |                |
-| MSN            | 00012D          |                |
-| 2D Barcode     | 00012D          | (MSN)          |
-| Specimen Type  | Paraffin Block Primary cDNA |                |
-| Concentration  |                 |                |
-| Yield          | 10 ul           |                |
+| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **BSN**            | 125             |                |
+| **NCH Barcode**    | 0BJ64B          |                |
+| **MSN**            | 00012D          |                |
+| **2D Barcode**     | 00012D          | _(MSN)_          |
+| **Specimen Type**  | Paraffin Block Primary cDNA |                |
+| **Concentration**  |                 |                |
+| **Yield**          | 10 ul           |                |
 
 ---
 #### Shipping Manifests
