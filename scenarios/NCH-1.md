@@ -26,7 +26,14 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 
 ---
 #### Sample Specimen Label(s)
-_(Add content here)_
+
+###### Sequencing Specimen Label
+
+| FIELD          | SAMPLE VALUE(S) | NOTES          |
+|----------------|-----------------|----------------|
+| Registration # | 123456          | ("Patient ID") |
+| NCH Barcode    | ABCXYZ          |                |
+| ...            |                 |                |
 
 ---
 #### Sample Shipping Manifest(s)
@@ -35,7 +42,7 @@ _(Add content here)_
 ---
 #### Sample Integration Message(s)
 
-##### NCH-1-IM-1
+###### NCH-1-IM-1
 ```json
 {
   "header": {
