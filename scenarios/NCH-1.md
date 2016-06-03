@@ -9,7 +9,7 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 * Block sent to Core Morph (to cut slides)
 * Paperwork given to coordinator (next day)
 * Paperwork QC'd against STARS accessioning info
-* STARS poller sends specimen received message; See [NCH-1-IM-1](#nch-1-im-1)
+* STARS poller sends specimen received messages; See [NCH-1-IM-1](#nch-1-im-1)
 * Stained slide sent to BPC
 * Stained slide sent to path reviewer
 * Block sent to Core Morph when path review complete
@@ -22,7 +22,7 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 * MGL creates cDNA from extracted tumor RNA and records QC in STARS
 * MGL signing director reviews and approves QC documentation ("sign off")
 * Shipment in STARS created to include: Aliquot of blood DNA, Aliquot of tumor DNA, Aliquot of tumor cDNA, Tumor slide(s)
-* STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
+* STARS poller sends specimen shipped messages; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
 #### Specimen Labels - Sequencing
@@ -115,7 +115,8 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 ---
 ##### Integration Messages
 
-###### NCH-1-IM-1 (2 messages)
+###### NCH-1-IM-1
+_(2 specimen received messages)_
 ```json
 {
   "header": {
@@ -158,8 +159,11 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
     }
   }
 }
+```
 
 ##### NCH-1-IM-2
+_(6 specimen shipped messages)_
+
 ```json
 (To be defined)
 ```
