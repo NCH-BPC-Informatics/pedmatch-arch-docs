@@ -31,8 +31,8 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 
 | FIELD          | SAMPLE VALUE(S) | NOTES          |
 |----------------|-----------------|----------------|
-| Registration # | 123456          | ("Patient ID") |
-| NCH Barcode    | ABCXYZ          |                |
+| Registration # | 894561          | ("Patient ID") |
+| NCH Barcode    | 0BJ64A          |                |
 | MSN            | 00013D          |                |
 | 2D Barcode     | 00013D          | (MSN)          |
 | Specimen Type  | Blood Fresh DNA |                |
