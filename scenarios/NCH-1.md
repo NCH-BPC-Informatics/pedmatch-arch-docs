@@ -25,9 +25,9 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 * STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
-#### Specimen Labels
+#### Specimen Labels - Sequencing
 
-###### Label - Sequencing Specimen #1 (DNA from Blood)
+###### Specimen #1 (DNA from Blood)
 
 ||||
 |----------------|-----------------|----------------|
@@ -39,7 +39,7 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 | **Concentration**  | 25 ng/ul        |                |
 | **Yield**          | 10 ul           |                |
 
-###### Label - Sequencing Specimen #2 (DNA extracted from Tumor)
+###### Specimen #2 (DNA extracted from Tumor)
 
 ||||
 |----------------|-----------------|----------------|
@@ -52,7 +52,7 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 | **Concentration**  | 25 ng/ul        |                |
 | **Yield**          | 10 ul           |                |
 
-###### Label - Sequencing Specimen #3 (cDNA generated from Tumor)
+###### Specimen #3 (cDNA generated from Tumor)
 
 ||||
 |----------------|-----------------|----------------|
@@ -65,23 +65,55 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 | **Concentration**  |                 |                |
 | **Yield**          | 10 ul           |                |
 
+#### Specimen Labels - Slides
+
+###### Slide Specimen #1
+
+||||
+|----------------|-----------------|----------------|
+| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **NCH Barcode**    | 0BJ6A5          |                |
+| **2D Barcode**     | 0BJ6A5          | _(NCH Barcode)_          |
+| **Specimen Type**            | Paraffin Unstained Primary          |                |
+| **Block #**     | B          |           |
+
+###### Slide Specimen #2
+
+||||
+|----------------|-----------------|----------------|
+| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **NCH Barcode**    | 0BJ6A6          |                |
+| **2D Barcode**     | 0BJ6A6          | _(NCH Barcode)_          |
+| **Specimen Type**            | Paraffin Unstained Primary          |                |
+| **Block #**     | B          |           |
+
+###### Slide Specimen #3
+
+||||
+|----------------|-----------------|----------------|
+| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **NCH Barcode**    | 0BJ6A7          |                |
+| **2D Barcode**     | 0BJ6A7          | _(NCH Barcode)_          |
+| **Specimen Type**            | Paraffin Unstained Primary          |                |
+| **Block #**     | B          |           |
+
 ---
 #### Shipping Manifests
 
 ---
-###### Sample Shipping Manifest - NUCLEIC ACIDS
+###### Sequencing Specimens
 ![alt text](images/NCH-1-NucleicAcidShippingManifest.png)
 
 ---
-###### Sample Shipping Manifest - SLIDES
+###### Slide Specimens
 ![alt text](images/NCH-1-SlidesPediatricMatchShippingManifest.png)
 
 ---
-###### Sample Shipping Manifest - PATIENT INFO
+###### Patient Information
 ![alt text](images/NCH-1-PatientInformationManifestSequencingCenter.png)
 
 ---
-##### Sample Integration Message(s)
+##### Integration Messages
 
 ###### NCH-1-IM-1
 ```json
