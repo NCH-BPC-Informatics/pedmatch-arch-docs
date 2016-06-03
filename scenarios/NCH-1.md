@@ -33,19 +33,11 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 |----------------|-----------------|----------------|
 | Registration # | 123456          | ("Patient ID") |
 | NCH Barcode    | ABCXYZ          |                |
-|                |                 |                |
-|                |                 |                |
-|                |                 |                |
-|                |                 |                |
-|                |                 |                |
-|                |                 |                |
-|                |                 |                |
--	MSN
--	Specimen Type
--	Concentration
--	Yield
--	2D Barcode – would have MSN
-
+| MSN            | 00013D          |                |
+| 2D Barcode     | 00013D          | (MSN)          |
+| Specimen Type  | Blood Fresh DNA |                |
+| Concentration  | 25 ng/ul        |                |
+| Yield          | 10 ul           |                |
 
 ---
 ###### Sample Shipping Manifest - NUCLEIC ACIDS
