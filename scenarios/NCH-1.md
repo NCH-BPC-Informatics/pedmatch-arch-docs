@@ -236,6 +236,7 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
+    "bsn": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
@@ -256,6 +257,7 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
+    "bsn": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
@@ -276,6 +278,7 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
+    "bsn": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
