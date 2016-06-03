@@ -25,30 +25,42 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 * STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
-#### Sample Specimen Label(s)
+#### Labels and Manifests
 
-###### Sequencing Specimen Label
+###### Label - Sequencing Specimen
 
 | FIELD          | SAMPLE VALUE(S) | NOTES          |
 |----------------|-----------------|----------------|
 | Registration # | 123456          | ("Patient ID") |
 | NCH Barcode    | ABCXYZ          |                |
-| ...            |                 |                |
+|                |                 |                |
+|                |                 |                |
+|                |                 |                |
+|                |                 |                |
+|                |                 |                |
+|                |                 |                |
+|                |                 |                |
+-	MSN
+-	Specimen Type
+-	Concentration
+-	Yield
+-	2D Barcode – would have MSN
+
 
 ---
-#### Sample Shipping Manifest - NUCLEIC ACIDS
+###### Sample Shipping Manifest - NUCLEIC ACIDS
 ![alt text](images/NCH-1-NucleicAcidShippingManifest.png)
 
 ---
-#### Sample Shipping Manifest - SLIDES
+###### Sample Shipping Manifest - SLIDES
 ![alt text](images/NCH-1-SlidesPediatricMatchShippingManifest.png)
 
 ---
-#### Sample Shipping Manifest - PATIENT INFO
+###### Sample Shipping Manifest - PATIENT INFO
 ![alt text](images/NCH-1-PatientInformationManifestSequencingCenter.png)
 
 ---
-#### Sample Integration Message(s)
+##### Sample Integration Message(s)
 
 ###### NCH-1-IM-1
 ```json
