@@ -125,7 +125,6 @@ _(2 specimen received messages)_
   },
   "specimen_received": {
     "patient_id": "894561",
-    "collection_grouping_id": "CGID-123456",
     "type": "Blood",
     "disease_status": "Normal",
     "internal_use_only": {
@@ -147,7 +146,7 @@ _(2 specimen received messages)_
   },
   "specimen_received": {
     "patient_id": "894561",
-    "collection_grouping_id": "CGID-123457",
+    "bsn": "125",
     "type": "Tissue",
     "disease_status": "Diseased",
     "internal_use_only": {
