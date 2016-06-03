@@ -1,6 +1,8 @@
 # Scenario NCH-1
-#### Reference Baseline - All received in same shipment; processed as expected; shipped as expected
+Reference Baseline - All received in same shipment; processed as expected; shipped as expected
 
+---
+#### Workflow
 1. Blood and Tumor received in same shipment
 * Specimens accessioned into STARS
 * Blood sent to MGL (for DNA extraction, etc.) 
@@ -23,8 +25,16 @@
 * STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
+#### Sample Specimen Label(s)
+_(Add content here)_
 
-#### Sample Integration Messages (JSON format)
+---
+#### Sample Shipping Manifest(s)
+_(Add content here)_
+
+---
+#### Sample Integration Message(s)
+
 ##### NCH-1-IM-1
 ```json
 {
