@@ -172,7 +172,6 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
     "msn": "00013D",
     "type": "Blood Fresh DNA",
     "carrier": "Federal Express",
@@ -181,6 +180,50 @@ _(6 specimen shipped messages)_
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0BJ64A"
+    }
+  }
+}
+```
+
+```json
+{
+  "header": {
+    "msg_guid": "7912901b-7285-40cc-9269-1cae961a0ea7",
+    "msg_dttm": "2016-05-01T19:42:13+00:00"
+  },
+  "specimen_shipped": {
+    "patient_id": "894561",
+    "bsn": "125",
+    "msn": "00012D",
+    "type": "Paraffin Scroll Primary DNA",
+    "carrier": "Federal Express",
+    "tracking_id": "7956 4568 1235",
+    "shipped_ts": "2016-05-01T19:42:13+00:00",
+    "internal_use_only": {
+      "stars_patient_id": "ABCXYZ",
+      "stars_specimen_id": "ABCXYZ-0BJ64B"
+    }
+  }
+}
+```
+
+```json
+{
+  "header": {
+    "msg_guid": "7912901b-7285-40cc-9269-1cae961a0ea7",
+    "msg_dttm": "2016-05-01T19:42:13+00:00"
+  },
+  "specimen_shipped": {
+    "patient_id": "894561",
+    "bsn": "125",
+    "msn": "00012C",
+    "type": "Paraffin Scroll Primary cDNA",
+    "carrier": "Federal Express",
+    "tracking_id": "7956 4568 1235",
+    "shipped_ts": "2016-05-01T19:42:13+00:00",
+    "internal_use_only": {
+      "stars_patient_id": "ABCXYZ",
+      "stars_specimen_id": "ABCXYZ-0BJ64F"
     }
   }
 }
