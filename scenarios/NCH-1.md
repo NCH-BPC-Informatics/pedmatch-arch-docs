@@ -1,5 +1,5 @@
 # Scenario NCH-1
-Reference Baseline - All received in same shipment; processed as expected; shipped as expected
+*Reference Baseline - All received in same shipment; processed as expected; shipped as expected*
 
 ---
 #### Workflow
