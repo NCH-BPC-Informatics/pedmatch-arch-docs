@@ -25,9 +25,9 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 * STARS poller sends specimen shipped message; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
-#### Labels and Manifests
+#### Specimen Labels
 
-###### Label - Sequencing Specimen
+###### Label - Sequencing Specimen #1 (DNA from Blood)
 
 | FIELD          | SAMPLE VALUE(S) | NOTES          |
 |----------------|-----------------|----------------|
@@ -38,6 +38,35 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 | Specimen Type  | Blood Fresh DNA |                |
 | Concentration  | 25 ng/ul        |                |
 | Yield          | 10 ul           |                |
+
+###### Label - Sequencing Specimen #2 (DNA extracted from Tumor)
+
+| FIELD          | SAMPLE VALUE(S) | NOTES          |
+|----------------|-----------------|----------------|
+| Registration # | 894561          | ("Patient ID") |
+| BSN            | 125             |                |
+| NCH Barcode    | 0BJ64B          |                |
+| MSN            | 00012D          |                |
+| 2D Barcode     | 00012D          | (MSN)          |
+| Specimen Type  | Paraffin Block Primary DNA |                |
+| Concentration  | 25 ng/ul        |                |
+| Yield          | 10 ul           |                |
+
+###### Label - Sequencing Specimen #3 (cDNA generated from Tumor)
+
+| FIELD          | SAMPLE VALUE(S) | NOTES          |
+|----------------|-----------------|----------------|
+| Registration # | 894561          | ("Patient ID") |
+| BSN            | 125             |                |
+| NCH Barcode    | 0BJ64B          |                |
+| MSN            | 00012D          |                |
+| 2D Barcode     | 00012D          | (MSN)          |
+| Specimen Type  | Paraffin Block Primary cDNA |                |
+| Concentration  |                 |                |
+| Yield          | 10 ul           |                |
+
+---
+#### Shipping Manifests
 
 ---
 ###### Sample Shipping Manifest - NUCLEIC ACIDS
