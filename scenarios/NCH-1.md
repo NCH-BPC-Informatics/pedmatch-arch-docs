@@ -36,8 +36,12 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 | ...            |                 |                |
 
 ---
-#### Sample Shipping Manifest(s)
-_(Add content here)_
+#### Sample Nucleic Acid Shipping Manifest
+![alt text](images/NCH-1-NucleicAcidShippingManifest.png)
+
+---
+#### Sample Patient Information Manifest
+![alt text](images/NCH-1-PatientInformationManifestSequencingCenter.png)
 
 ---
 #### Sample Integration Message(s)
