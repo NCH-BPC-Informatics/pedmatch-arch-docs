@@ -115,43 +115,49 @@ Reference Baseline - All received in same shipment; processed as expected; shipp
 ---
 ##### Integration Messages
 
-###### NCH-1-IM-1
+###### NCH-1-IM-1 (2 messages)
 ```json
 {
   "header": {
     "msg_guid": "5c64192f-8a25-4874-9db6-fd55c398822d",
     "msg_dttm": "2016-04-25T18:42:13+00:00"
   },
-  "specimens_received": [
-    {
-      "patient_id": "17364",
-      "collection_grouping_id": "CGID-123456",
-      "type": "Blood",
-      "disease_status": "Normal",
-      "internal_use_only": {
-        "stars_patient_id": "ABCXYZ",
-        "stars_specimen_id": "ABCXYZ-ABC123",
-        "stars_specimen_type": "Blood Fresh",
-        "received_ts": "2016-04-25T15:17:11+00:00",
-        "qc_ts": "2016-04-25T16:21:34+00:00"
-      }
-    },
-    {
-      "patient_id": "17364",
-      "collection_grouping_id": "CGID-123457",
-      "type": "Tissue",
-      "disease_status": "Diseased",
-      "internal_use_only": {
-        "stars_patient_id": "ABCXYZ",
-        "stars_specimen_id": "ABCXYZ-ABC124",
-        "stars_specimen_type": "Paraffin Block Primary",
-        "received_ts": "2016-04-25T15:17:11+00:00",
-        "qc_ts": "2016-04-25T16:21:34+00:00"
-      }
+  "specimen_received": {
+    "patient_id": "894561",
+    "collection_grouping_id": "CGID-123456",
+    "type": "Blood",
+    "disease_status": "Normal",
+    "internal_use_only": {
+      "stars_patient_id": "ABCXYZ",
+      "stars_specimen_id": "ABCXYZ-0AK64L",
+      "stars_specimen_type": "Blood Fresh",
+      "received_ts": "2016-04-25T15:17:11+00:00",
+      "qc_ts": "2016-04-25T16:21:34+00:00"
     }
-  ]
+  }
 }
 ```
+
+```json
+{
+  "header": {
+    "msg_guid": "ab6d8d37-caf2-4dbb-a360-0032c7a7a76c",
+    "msg_dttm": "2016-04-25T18:42:13+00:00"
+  },
+  "specimen_received": {
+    "patient_id": "894561",
+    "collection_grouping_id": "CGID-123457",
+    "type": "Tissue",
+    "disease_status": "Diseased",
+    "internal_use_only": {
+      "stars_patient_id": "ABCXYZ",
+      "stars_specimen_id": "ABCXYZ-0AK64M",
+      "stars_specimen_type": "Paraffin Block Primary",
+      "received_ts": "2016-04-25T15:17:11+00:00",
+      "qc_ts": "2016-04-25T16:21:34+00:00"
+    }
+  }
+}
 
 ##### NCH-1-IM-2
 ```json
