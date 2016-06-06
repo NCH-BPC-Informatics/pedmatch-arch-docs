@@ -196,39 +196,21 @@ _(6 specimen shipped messages)_
     "msg_guid": "3037ddec-0081-4e22-8448-721ab4ad76b4",
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
-  "specimen_shipped": {
+  "dna_cdna_shipped": {
     "patient_id": "894561",
     "bsn": "125",
-    "msn": "00012D",
-    "type": "Paraffin Scroll Primary DNA",
+    "msn": "00012",
+    "msn_dna": "00012D",
+    "msn_cdna": "00012C",
+    "type_dna": "Paraffin Scroll Primary DNA",
+    "type_cdna": "Paraffin Scroll Primary cDNA",
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
     "shipped_ts": "2016-05-01T19:42:13+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ64B"
-    }
-  }
-}
-```
-
-```json
-{
-  "header": {
-    "msg_guid": "07daa0de-9a19-42c3-be79-0237dfacf134",
-    "msg_dttm": "2016-05-01T19:42:13+00:00"
-  },
-  "specimen_shipped": {
-    "patient_id": "894561",
-    "bsn": "125",
-    "msn": "00012C",
-    "type": "Paraffin Scroll Primary cDNA",
-    "carrier": "Federal Express",
-    "tracking_id": "7956 4568 1235",
-    "shipped_ts": "2016-05-01T19:42:13+00:00",
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ64F"
+      "stars_specimen_id_dna": "ABCXYZ-0BJ64B",
+      "stars_specimen_id_cdna": "ABCXYZ-0BJ64F"
     }
   }
 }
