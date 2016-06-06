@@ -20,6 +20,7 @@
 * NCH-19 - Variation: Additional (unrequested/unnecesary) blood arives
 * NCH-20 - Variation: Additional (unrequested/unnecesary) tumor arives
 * NCH-21 - Variation: COG registration data indiates no enrollment in relevant protocol(s)
+* NCH-22 - Variation: Sequencing center requests additional DNA/cDNA
 * Variation: ...other failure scenarios (e.g., case level)...?
 * Variation: ...other failure scenarios (e.g., specimen level)...?
 
