@@ -127,6 +127,9 @@ _(2 specimen received messages)_
     "patient_id": "894561",
     "type": "Blood",
     "disease_status": "Normal",
+    "collection_ts": "2016-04-25T14:17:11+00:00",
+    "received_ts": "2016-04-25T15:17:11+00:00",
+    "study_id": "APEC1621",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0AK64L",
@@ -149,6 +152,9 @@ _(2 specimen received messages)_
     "bsn": "125",
     "type": "Tissue",
     "disease_status": "Diseased",
+    "collection_ts": "2016-04-25T14:17:11+00:00",
+    "received_ts": "2016-04-25T15:17:11+00:00",
+    "study_id": "APEC1621",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0AK64M",
