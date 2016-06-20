@@ -37,7 +37,7 @@
 | **2D Barcode**     | 00013D          | _(Molecular ID)_          |
 | **Specimen Type**  | Blood Fresh DNA |                |
 | **Concentration**  | 25 ng/ul        |                |
-| **Yield**          | 10 ul           |                |
+| **Volume**        | 10 ul           |                |
 
 ###### Specimen #2 (DNA extracted from Tumor)
 
@@ -50,7 +50,7 @@
 | **2D Barcode**     | 00012D          | _(Molecular ID)_  |
 | **Specimen Type**  | Paraffin Scroll Primary DNA |    |
 | **Concentration**  | 25 ng/ul        |                |
-| **Yield**          | 10 ul           |                |
+| **Volume**          | 10 ul           |                |
 
 ###### Specimen #3 (cDNA generated from Tumor)
 
@@ -63,7 +63,7 @@
 | **2D Barcode**     | 00012C          | _(Molecular ID)_   |
 | **Specimen Type**  | Paraffin Scroll Primary cDNA |   |
 | **Concentration**  |                 |                |
-| **Yield**          | 10 ul           |                |
+| **Volume**          | 10 ul           |                |
 
 #### Specimen Labels - Slides
 
