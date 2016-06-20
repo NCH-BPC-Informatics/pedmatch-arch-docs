@@ -33,7 +33,7 @@
 |----------------|-----------------|----------------|
 | **Registration #** | 894561          | _(PSN / Patient ID)_ |
 | **NCH Barcode**    | 0BJ64A          |                |
-| **MSN**            | 00013D          |                |
+| **Molecular ID**            | 00013D          |                |
 | **2D Barcode**     | 00013D          | _(MSN)_          |
 | **Specimen Type**  | Blood Fresh DNA |                |
 | **Concentration**  | 25 ng/ul        |                |
@@ -44,9 +44,9 @@
 ||||
 |----------------|-----------------|----------------|
 | **Registration #** | 894561          | _(PSN / Patient ID)_ |
-| **BSN**            | 125             |                |
+| **Surgical Event ID** | 125             |                |
 | **NCH Barcode**    | 0BJ64B          |                |
-| **MSN**            | 00012D          |                |
+| **Molecular ID**            | 00012D          |                |
 | **2D Barcode**     | 00012D          | _(MSN)_          |
 | **Specimen Type**  | Paraffin Scroll Primary DNA |                |
 | **Concentration**  | 25 ng/ul        |                |
@@ -57,9 +57,9 @@
 ||||
 |----------------|-----------------|----------------|
 | **Registration #** | 894561          | _(PSN / Patient ID)_ |
-| **BSN**            | 125             |                |
+| **Surgical Event ID** | 125             |                |
 | **NCH Barcode**    | 0BJ64F          |                |
-| **MSN**            | 00012C          |                |
+| **Molecular ID**            | 00012C          |                |
 | **2D Barcode**     | 00012C          | _(MSN)_          |
 | **Specimen Type**  | Paraffin Scroll Primary cDNA |                |
 | **Concentration**  |                 |                |
@@ -198,10 +198,10 @@ _(6 specimen shipped messages)_
   },
   "dna_cdna_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
-    "msn": "00012",
-    "msn_dna": "00012D",
-    "msn_cdna": "00012C",
+    "surgical_event_id": "125",
+    "molecular_id": "00012",
+    "molecular_id_dna": "00012D",
+    "molecular_id_cdna": "00012C",
     "type_dna": "Paraffin Scroll Primary DNA",
     "type_cdna": "Paraffin Scroll Primary cDNA",
     "carrier": "Federal Express",
@@ -224,7 +224,7 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
+    "surgical_event_id": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
@@ -245,7 +245,7 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
+    "surgical_event_id": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
@@ -266,7 +266,7 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
+    "surgical_event_id": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
