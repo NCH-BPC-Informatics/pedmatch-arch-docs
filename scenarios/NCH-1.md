@@ -31,10 +31,10 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ64A          |                |
-| **MSN**            | 00013D          |                |
-| **2D Barcode**     | 00013D          | _(MSN)_          |
+| **Molecular ID**   | 00013D          |                |
+| **2D Barcode**     | 00013D          | _(Molecular ID)_          |
 | **Specimen Type**  | Blood Fresh DNA |                |
 | **Concentration**  | 25 ng/ul        |                |
 | **Yield**          | 10 ul           |                |
@@ -43,12 +43,12 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
-| **BSN**            | 125             |                |
+| **Registration #** | 894561          | _(Patient ID)_ |
+| **Surgical Event ID** | 125             |                |
 | **NCH Barcode**    | 0BJ64B          |                |
-| **MSN**            | 00012D          |                |
-| **2D Barcode**     | 00012D          | _(MSN)_          |
-| **Specimen Type**  | Paraffin Scroll Primary DNA |                |
+| **Molecular ID**   | 00012D          |                |
+| **2D Barcode**     | 00012D          | _(Molecular ID)_  |
+| **Specimen Type**  | Paraffin Scroll Primary DNA |    |
 | **Concentration**  | 25 ng/ul        |                |
 | **Yield**          | 10 ul           |                |
 
@@ -56,12 +56,12 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
-| **BSN**            | 125             |                |
+| **Registration #** | 894561          | _(Patient ID)_ |
+| **Surgical Event ID** | 125          |                |
 | **NCH Barcode**    | 0BJ64F          |                |
-| **MSN**            | 00012C          |                |
-| **2D Barcode**     | 00012C          | _(MSN)_          |
-| **Specimen Type**  | Paraffin Scroll Primary cDNA |                |
+| **Molecular ID**   | 00012C          |                |
+| **2D Barcode**     | 00012C          | _(Molecular ID)_   |
+| **Specimen Type**  | Paraffin Scroll Primary cDNA |   |
 | **Concentration**  |                 |                |
 | **Yield**          | 10 ul           |                |
 
@@ -71,9 +71,9 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ6A5          |                |
-| **2D Barcode**     | 0BJ6A5          | _(NCH Barcode)_          |
+| **2D Barcode**     | 0BJ6A5          | _(NCH Barcode)_     |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
@@ -81,7 +81,7 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ6A6          |                |
 | **2D Barcode**     | 0BJ6A6          | _(NCH Barcode)_          |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
@@ -91,7 +91,7 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ6A7          |                |
 | **2D Barcode**     | 0BJ6A7          | _(NCH Barcode)_          |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
@@ -124,18 +124,17 @@ _(2 specimen received messages)_
     "msg_dttm": "2016-04-25T18:42:13+00:00"
   },
   "specimen_received": {
-    "patient_id": "894561",
-    "type": "Blood",
-    "disease_status": "Normal",
-    "collection_ts": "2016-04-25T14:17:11+00:00",
-    "received_ts": "2016-04-25T15:17:11+00:00",
     "study_id": "APEC1621",
+    "patient_id": "894561",
+    "type": "BLOOD",
+    "collection_dttm": "2016-04-25T14:17:11+00:00",
+    "received_dttm": "2016-04-25T15:17:11+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0AK64L",
       "stars_specimen_type": "Blood Fresh",
-      "received_ts": "2016-04-25T15:17:11+00:00",
-      "qc_ts": "2016-04-25T16:21:34+00:00"
+      "received_dttm": "2016-04-25T15:17:11+00:00",
+      "qc_dttm": "2016-04-25T16:21:34+00:00"
     }
   }
 }
@@ -148,19 +147,19 @@ _(2 specimen received messages)_
     "msg_dttm": "2016-04-25T18:42:13+00:00"
   },
   "specimen_received": {
-    "patient_id": "894561",
-    "bsn": "125",
-    "type": "Tissue",
-    "disease_status": "Diseased",
-    "collection_ts": "2016-04-25T14:17:11+00:00",
-    "received_ts": "2016-04-25T15:17:11+00:00",
     "study_id": "APEC1621",
+    "patient_id": "894561",
+    "type": "TISSUE",
+    "surgical_event_id": "125", 
+    "disease_status": "Diseased",
+    "collection_dttm": "2016-04-25T14:17:11+00:00",
+    "received_dttm": "2016-04-25T15:17:11+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0AK64M",
       "stars_specimen_type": "Paraffin Block Primary",
-      "received_ts": "2016-04-25T15:17:11+00:00",
-      "qc_ts": "2016-04-25T16:21:34+00:00"
+      "received_dttm": "2016-04-25T15:17:11+00:00",
+      "qc_dttm": "2016-04-25T16:21:34+00:00"
     }
   }
 }
@@ -176,12 +175,13 @@ _(6 specimen shipped messages)_
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
   "specimen_shipped": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
-    "msn": "00013D",
     "type": "Blood Fresh DNA",
+    "molecular_id": "00013D",
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
-    "shipped_ts": "2016-05-01T19:42:13+00:00",
+    "shipped_dttm": "2016-05-01T19:42:13+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0BJ64A"
@@ -196,39 +196,21 @@ _(6 specimen shipped messages)_
     "msg_guid": "3037ddec-0081-4e22-8448-721ab4ad76b4",
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
-  "specimen_shipped": {
+  "dna_cdna_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
-    "msn": "00012D",
-    "type": "Paraffin Scroll Primary DNA",
+    "surgical_event_id": "125",
+    "molecular_id": "00012",
+    "molecular_id_dna": "00012D",
+    "molecular_id_cdna": "00012C",
+    "type_dna": "Paraffin Scroll Primary DNA",
+    "type_cdna": "Paraffin Scroll Primary cDNA",
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
-    "shipped_ts": "2016-05-01T19:42:13+00:00",
+    "shipped_dttm": "2016-05-01T19:42:13+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ64B"
-    }
-  }
-}
-```
-
-```json
-{
-  "header": {
-    "msg_guid": "07daa0de-9a19-42c3-be79-0237dfacf134",
-    "msg_dttm": "2016-05-01T19:42:13+00:00"
-  },
-  "specimen_shipped": {
-    "patient_id": "894561",
-    "bsn": "125",
-    "msn": "00012C",
-    "type": "Paraffin Scroll Primary cDNA",
-    "carrier": "Federal Express",
-    "tracking_id": "7956 4568 1235",
-    "shipped_ts": "2016-05-01T19:42:13+00:00",
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ64F"
+      "stars_specimen_id_dna": "ABCXYZ-0BJ64B",
+      "stars_specimen_id_cdna": "ABCXYZ-0BJ64F"
     }
   }
 }
@@ -242,11 +224,11 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
+    "surgical_event_id": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
-    "shipped_ts": "2016-05-02T18:30:17+00:00",
+    "shipped_dttm": "2016-05-02T18:30:17+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0BJ6A5"
@@ -263,11 +245,11 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
+    "surgical_event_id": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
-    "shipped_ts": "2016-05-02T18:30:17+00:00",
+    "shipped_dttm": "2016-05-02T18:30:17+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0BJ6A6"
@@ -284,11 +266,11 @@ _(6 specimen shipped messages)_
   },
   "specimen_shipped": {
     "patient_id": "894561",
-    "bsn": "125",
+    "surgical_event_id": "125",
     "type": "Paraffin Unstained Primary",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
-    "shipped_ts": "2016-05-02T18:30:17+00:00",
+    "shipped_dttm": "2016-05-02T18:30:17+00:00",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0BJ6A7"
