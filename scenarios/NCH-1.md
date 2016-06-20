@@ -150,7 +150,7 @@ _(2 specimen received messages)_
     "study_id": "APEC1621",
     "patient_id": "894561",
     "type": "TISSUE",
-    "surgical_event_id": "125",
+    "surgical_event_id": "125", 
     "disease_status": "Diseased",
     "collection_ts": "2016-04-25T14:17:11+00:00",
     "received_ts": "2016-04-25T15:17:11+00:00",
@@ -175,9 +175,10 @@ _(6 specimen shipped messages)_
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
   "specimen_shipped": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
-    "msn": "00013D",
     "type": "Blood Fresh DNA",
+    "molecular_id": "00013D",
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
     "shipped_ts": "2016-05-01T19:42:13+00:00",
