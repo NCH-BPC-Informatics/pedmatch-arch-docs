@@ -31,10 +31,10 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ64A          |                |
 | **Molecular ID**            | 00013D          |                |
-| **2D Barcode**     | 00013D          | _(MSN)_          |
+| **2D Barcode**     | 00013D          | _(Molecular ID)_          |
 | **Specimen Type**  | Blood Fresh DNA |                |
 | **Concentration**  | 25 ng/ul        |                |
 | **Yield**          | 10 ul           |                |
@@ -43,11 +43,11 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **Surgical Event ID** | 125             |                |
 | **NCH Barcode**    | 0BJ64B          |                |
 | **Molecular ID**            | 00012D          |                |
-| **2D Barcode**     | 00012D          | _(MSN)_          |
+| **2D Barcode**     | 00012D          | _(Molecular ID)_          |
 | **Specimen Type**  | Paraffin Scroll Primary DNA |                |
 | **Concentration**  | 25 ng/ul        |                |
 | **Yield**          | 10 ul           |                |
@@ -56,11 +56,11 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **Surgical Event ID** | 125             |                |
 | **NCH Barcode**    | 0BJ64F          |                |
 | **Molecular ID**            | 00012C          |                |
-| **2D Barcode**     | 00012C          | _(MSN)_          |
+| **2D Barcode**     | 00012C          | _(Molecular ID)_          |
 | **Specimen Type**  | Paraffin Scroll Primary cDNA |                |
 | **Concentration**  |                 |                |
 | **Yield**          | 10 ul           |                |
@@ -71,7 +71,7 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ6A5          |                |
 | **2D Barcode**     | 0BJ6A5          | _(NCH Barcode)_          |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
@@ -81,7 +81,7 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ6A6          |                |
 | **2D Barcode**     | 0BJ6A6          | _(NCH Barcode)_          |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
@@ -91,7 +91,7 @@
 
 ||||
 |----------------|-----------------|----------------|
-| **Registration #** | 894561          | _(PSN / Patient ID)_ |
+| **Registration #** | 894561          | _(Patient ID)_ |
 | **NCH Barcode**    | 0BJ6A7          |                |
 | **2D Barcode**     | 0BJ6A7          | _(NCH Barcode)_          |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
