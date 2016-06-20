@@ -124,12 +124,11 @@ _(2 specimen received messages)_
     "msg_dttm": "2016-04-25T18:42:13+00:00"
   },
   "specimen_received": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
-    "type": "Blood",
-    "disease_status": "Normal",
+    "type": "BLOOD",
     "collection_ts": "2016-04-25T14:17:11+00:00",
     "received_ts": "2016-04-25T15:17:11+00:00",
-    "study_id": "APEC1621",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0AK64L",
@@ -148,13 +147,13 @@ _(2 specimen received messages)_
     "msg_dttm": "2016-04-25T18:42:13+00:00"
   },
   "specimen_received": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
-    "bsn": "125",
-    "type": "Tissue",
+    "type": "TISSUE",
+    "surgical_event_id": "125",
     "disease_status": "Diseased",
     "collection_ts": "2016-04-25T14:17:11+00:00",
     "received_ts": "2016-04-25T15:17:11+00:00",
-    "study_id": "APEC1621",
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0AK64M",
