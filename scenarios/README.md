@@ -33,3 +33,6 @@
 _Put these elsewhere..._
 * Cases with Incomplete Material Received (7-30 days)
 * Specimens lacking "Specimen Received" messaging (2-30 days)
+
+## Outstanding Questions
+* If we receive additional specimens can we send receive messsages? (could be more of the same or new stuff)
