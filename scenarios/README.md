@@ -25,6 +25,10 @@
 * Variation: ...other failure scenarios (e.g., case level)...?
 * Variation: ...other failure scenarios (e.g., specimen level)...?
 
+## Cross-cutting Aspects
+* Surgical event ID represents a specific surgery for a specific patient at a specific timepoint
+* "Rebiopsy" situations do not alter the scenarios since they represent a new surgical event and thus have a new surgical event ID
+
 ## Audits:
 _Put these elsewhere..._
 * Cases with Incomplete Material Received (7-30 days)
