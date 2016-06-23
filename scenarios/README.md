@@ -25,6 +25,8 @@
 * NCH-24 - Variation: Sequencing center requests additional DNA/cDNA; requested more; received more specimen
 * NCH-25 - Variation: Sequencing center requests additional DNA/cDNA; were able to use existing specimen
 * NCH-26 - Variation: Sequencing center requests additional DNA/cDNA; requested more; received more specimen
+* NCH-27 - Variation: Genetic identity mismatch determined to be upstream from NCH
+* NCH-28 - Variation: Genetic identity mismatch determined to be upstream from Sequencing center
 * Variation: ...other failure scenarios (e.g., case level)...?
 * Variation: ...other failure scenarios (e.g., specimen level)...?
 
