@@ -9,7 +9,7 @@
 * NCH-8 - Variation: Nothing arrives; _expect COG to send withdrawal/failure_
 * NCH-9 - Variation: QC paperwork failure (Blood)
 * NCH-10 - Variation: QC paperwork failure (Tumor)
-* NCH-11 - Variation: Failure during extraction, Cut more from existing block
+* NCH-11 - Variation: Failure during extraction, Cut more from existing block (maybe same block, maybe diff but from same surgery)
 * NCH-12 - Variation: Failure during extraction, Request more from site, Lengthy delay
 * NCH-13 - Variation: Failure during extraction, Request more from site, Told no more available
 * NCH-14 - Variation: Failure during extraction, Request more from site, Received more
