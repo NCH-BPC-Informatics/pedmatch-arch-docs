@@ -36,3 +36,4 @@ _Put these elsewhere..._
 
 ## Outstanding Questions
 * If we receive additional specimens can we send receive messsages? (could be more of the same or new stuff)
+* How to mark/trigger failures so that messages are sent
