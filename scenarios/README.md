@@ -6,7 +6,7 @@
 * [NCH-5](NCH-5.md) - Variation: Tumor arrives, Lengthy delay, No blood available
 * NCH-6 - Variation: Blood arrives, Lengthy delay, Tumor arives
 * [NCH-7](NCH-7.md) - Variation: Blood arrives, Lengthy delay, No tumor available
-* NCH-8 - Variation: Nothing arrives
+* NCH-8 - Variation: Nothing arrives; _expect COG to send withdrawal/failure_
 * NCH-9 - Variation: QC paperwork failure (Blood)
 * NCH-10 - Variation: QC paperwork failure (Tumor)
 * NCH-11 - Variation: Failure during extraction, Cut more from existing block
@@ -20,7 +20,7 @@
 * NCH-19 - Variation: Tumor fails QC, Request more, Lengthy delay, Told no more available
 * NCH-20 - Variation: Additional (unrequested/unnecesary) blood arives
 * NCH-21 - Variation: Additional (unrequested/unnecesary) tumor arives
-* NCH-22 - Variation: COG registration data indiates no enrollment in relevant protocol(s)
+* NCH-22 - Variation: COG registration data indiates no enrollment in relevant protocol(s); _expect COG to send withdrawal/failure_
 * NCH-23 - Variation: Sequencing center requests additional DNA/cDNA
 * Variation: ...other failure scenarios (e.g., case level)...?
 * Variation: ...other failure scenarios (e.g., specimen level)...?
