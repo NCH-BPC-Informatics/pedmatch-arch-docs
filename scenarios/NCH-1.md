@@ -177,7 +177,7 @@ _(6 specimen shipped messages)_
   "specimen_shipped": {
     "study_id": "APEC1621",
     "patient_id": "894561",
-    "type": "Blood Fresh DNA",
+    "type": "BLOOD_DNA",
     "molecular_id": "00013",
     "molecular_id_dna": "00013D",
     "carrier": "Federal Express",
@@ -203,8 +203,7 @@ _(6 specimen shipped messages)_
     "molecular_id": "00012",
     "molecular_id_dna": "00012D",
     "molecular_id_cdna": "00012C",
-    "type_dna": "Paraffin Scroll Primary DNA",
-    "type_cdna": "Paraffin Scroll Primary cDNA",
+    "type": "TISSUE_DNA_AND_CDNA",
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
     "shipped_dttm": "2016-05-01T19:42:13+00:00",
@@ -226,7 +225,7 @@ _(6 specimen shipped messages)_
   "specimen_shipped": {
     "patient_id": "894561",
     "surgical_event_id": "125",
-    "type": "Paraffin Unstained Primary",
+    "type": "SLIDE",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
     "shipped_dttm": "2016-05-02T18:30:17+00:00",
@@ -247,7 +246,7 @@ _(6 specimen shipped messages)_
   "specimen_shipped": {
     "patient_id": "894561",
     "surgical_event_id": "125",
-    "type": "Paraffin Unstained Primary",
+    "type": "SLIDE",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
     "shipped_dttm": "2016-05-02T18:30:17+00:00",
@@ -268,7 +267,7 @@ _(6 specimen shipped messages)_
   "specimen_shipped": {
     "patient_id": "894561",
     "surgical_event_id": "125",
-    "type": "Paraffin Unstained Primary",
+    "type": "SLIDE",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
     "shipped_dttm": "2016-05-02T18:30:17+00:00",
