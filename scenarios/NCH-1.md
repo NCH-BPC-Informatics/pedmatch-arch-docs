@@ -225,6 +225,7 @@ _(6 specimen shipped messages)_
   "specimen_shipped": {
     "patient_id": "894561",
     "surgical_event_id": "125",
+    "slide_barcode": "0BJ6A5",
     "type": "SLIDE",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
@@ -246,6 +247,7 @@ _(6 specimen shipped messages)_
   "specimen_shipped": {
     "patient_id": "894561",
     "surgical_event_id": "125",
+    "slide_barcode": "0BJ6A6",
     "type": "SLIDE",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
@@ -267,6 +269,7 @@ _(6 specimen shipped messages)_
   "specimen_shipped": {
     "patient_id": "894561",
     "surgical_event_id": "125",
+    "slide_barcode": "0BJ6A7",
     "type": "SLIDE",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
