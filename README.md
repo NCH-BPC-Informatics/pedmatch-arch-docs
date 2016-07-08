@@ -2,5 +2,4 @@
 
 ## Content
 * [Presentations and Schematics](schematics)
-* [Workflow/Messaging Scenarios](scenarios)
 * [Project Planning](planning)
