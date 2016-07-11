@@ -10,18 +10,18 @@
 * Paperwork given to coordinator (next day)
 * Paperwork QC'd against STARS accessioning info
 * STARS poller sends specimen received messages; See [NCH-1-IM-1](#nch-1-im-1)
-* Stained slide sent to BPC
+* Stained and unstained slides sent to BPC
 * Stained slide sent to path reviewer
-* Block sent to Core Morph when path review complete
-* Scrolls cut; Unstained slides cut sent to BPC
-* Slides held by BPC (for later shipment to MDA)
-* Scrolls sent to MGL for extraction
 * Block remaining, if any, banked at BPC
+* Slides held by BPC (for later shipment to MDA for IHC)
+* Unstained slides cut for extraction sent to Core Morph 
+* Unstained slides scrapings sent to BPC
+* Unstained slide scrapings sent to MGL for extraction
 * MGL extracts DNA from blood and records yield, QC, etc. in STARS
 * MGL extracts DNA, RNA from tumor and records yield, QC, etc. in STARS
 * MGL creates cDNA from extracted tumor RNA and records QC in STARS
 * MGL signing director reviews and approves QC documentation ("sign off")
-* Shipment in STARS created to include: Aliquot of blood DNA, Aliquot of tumor DNA, Aliquot of tumor cDNA, Tumor slide(s)
+* Shipment in STARS created to include: Aliquot of blood DNA, Aliquot of tumor DNA, Aliquot of tumor cDNA, Tumor slide
 * STARS poller sends specimen shipped messages; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
@@ -110,10 +110,6 @@
 ---
 ###### Slide Specimens
 ![Image](../documents/Slides Pedatric match shipping manfiest 5.xls.png)
-
----
-###### Patient Information
-![alt text](images/NCH-1-PatientInformationManifestSequencingCenter.png)
 
 ---
 ##### Integration Messages
