@@ -105,11 +105,11 @@
 
 ---
 ###### Sequencing Specimens
-![alt text](images/NCH-1-NucleicAcidShippingManifest.png)
+![Sequencing Specimens Manifest](blob/master/documents/Nucleic Acid Pedatric match shipping manfiest 5.xls.png)
 
 ---
 ###### Slide Specimens
-![alt text](images/NCH-1-SlidesPediatricMatchShippingManifest.png)
+![Image](blob/master/documents/Slides Pedatric match shipping manfiest 5.xls.png)
 
 ---
 ###### Patient Information
