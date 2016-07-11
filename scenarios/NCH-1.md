@@ -150,7 +150,6 @@ _(2 specimen received messages)_
     "patient_id": "894561",
     "type": "TISSUE",
     "surgical_event_id": "125", 
-    "disease_status": "Diseased",
     "collection_dttm": "2016-04-25T14:17:11+00:00",
     "received_dttm": "2016-04-25T15:17:11+00:00",
     "internal_use_only": {
