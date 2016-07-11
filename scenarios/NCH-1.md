@@ -105,11 +105,11 @@
 
 ---
 ###### Sequencing Specimens
-![Sequencing Specimens Manifest](blob/master/documents/Nucleic Acid Pedatric match shipping manfiest 5.xls.png)
+![Image](../../documents/Nucleic Acid Pedatric match shipping manfiest 5.xls.png)
 
 ---
 ###### Slide Specimens
-![Image](blob/master/documents/Slides Pedatric match shipping manfiest 5.xls.png)
+![Image](../../documents/Slides Pedatric match shipping manfiest 5.xls.png)
 
 ---
 ###### Patient Information
