@@ -197,6 +197,7 @@ _(6 specimen shipped messages)_
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
   "dna_cdna_shipped": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
     "surgical_event_id": "125",
     "molecular_id": "00012",
@@ -222,6 +223,7 @@ _(6 specimen shipped messages)_
     "msg_dttm": "2016-05-02T18:30:17+00:00"
   },
   "specimen_shipped": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
     "surgical_event_id": "125",
     "slide_barcode": "0BJ6A5",
@@ -244,6 +246,7 @@ _(6 specimen shipped messages)_
     "msg_dttm": "2016-05-02T18:30:17+00:00"
   },
   "specimen_shipped": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
     "surgical_event_id": "125",
     "slide_barcode": "0BJ6A6",
@@ -266,6 +269,7 @@ _(6 specimen shipped messages)_
     "msg_dttm": "2016-05-02T18:30:17+00:00"
   },
   "specimen_shipped": {
+    "study_id": "APEC1621",
     "patient_id": "894561",
     "surgical_event_id": "125",
     "slide_barcode": "0BJ6A7",
