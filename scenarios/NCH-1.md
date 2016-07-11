@@ -195,7 +195,7 @@ _(6 specimen shipped messages)_
     "msg_guid": "3037ddec-0081-4e22-8448-721ab4ad76b4",
     "msg_dttm": "2016-05-01T19:42:13+00:00"
   },
-  "dna_cdna_shipped": {
+  "specimen_shipped": {
     "study_id": "APEC1621",
     "patient_id": "894561",
     "surgical_event_id": "125",
