@@ -2,4 +2,4 @@
 
 ## Content
 * [Presentations and Schematics](schematics)
-* [Project Planning](planning)
+* [Scenarios](scenarios/README.md)
