@@ -180,6 +180,8 @@ _(6 specimen shipped messages)_
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
     "shipped_dttm": "2016-05-01T19:42:13+00:00",
+    "dna_volume_ul": 10,
+    "dna_concentration_ng_per_ul": 25,
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id": "ABCXYZ-0BJ64A"
@@ -203,6 +205,9 @@ _(6 specimen shipped messages)_
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
     "shipped_dttm": "2016-05-01T19:42:13+00:00",
+    "dna_volume_ul": 10,
+    "dna_concentration_ng_per_ul": 25,
+    "cdna_volume_ul": 10,
     "internal_use_only": {
       "stars_patient_id": "ABCXYZ",
       "stars_specimen_id_dna": "ABCXYZ-0BJ64B",
