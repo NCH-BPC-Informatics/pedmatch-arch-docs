@@ -164,7 +164,7 @@ _(2 specimen received messages)_
 ```
 
 ##### NCH-1-IM-2
-_(6 specimen shipped messages)_
+_(5 specimen shipped messages)_
 
 ```json
 {
