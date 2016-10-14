@@ -9,7 +9,7 @@
     "surgical_event_id": "12345",
     "failure_reason": "INSUFF_TISSUE_AVAIL",
     "failure_reason_detail": "Case marked as no further viable tissue available by user JGF",
-    "failure_dttm": "2016-11-12T19:10:12Z"
+    "failure_dttm": "2016-11-12T19:10:12Z",
     "internal_use_only": {
         "stars_patient_id": "ABCXYZ"
     }
