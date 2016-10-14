@@ -1,4 +1,46 @@
 ## Key Workflow Scenarios:
+
+**Variations by Specimen Arrival**
+
+  * [NCH-01a](NCH-01a.md) - NCH receives blood and tumor block in same shipment
+  * NCH-01b - NCH receives blood and slides (stained/unstained) in same shipment
+  * NCH-01c - NCH receives blood and slides (unstained) in same shipment
+  * NCH-02 - NCH receives tumor block then blood in different shipments
+  * NCH-03 - NCH receives blood then tumor block in different shipments
+  * NCH-04 - NCH receives tumor block then blood after lengthy delay (tumor specimens already shipped for sequencing)
+  * NCH-05 - NCH receives tumor block but blood never arrives/available
+  * NCH-06 - NCH receives blood then tumor block after lengthy delay
+  * NCH-07 - NCH receives blood but tumor block never arrives/available
+  * NCH-08 - NCH receives no specimens for enrolled patient
+
+**Paperwork Problem sub-variations**
+
+  * NCH-09 - Paperwork problems corrected during paperwork QC
+  * NCH-10a - Paperwork problems not requiring a pause in processing workflow
+  * NCH-10b - Paperwork problems requiring a pause in processing workflow
+
+**Processing Failure sub-variations (eventually successful)**
+
+  * NCH-11a - DNA failure (concentration/amplification); Eventually passes
+  * NCH-11b - RNA failure (concentration/amplification); Eventually passes
+  * NCH-11c - cDNA failure (amplification); Eventually passes
+  * NCH-11d - DNA/RNA failure (excessive degredation); Eventually passes
+  * NCH-12a - DNA failure (concentration/amplification); Request more tissue from site; Obtain more tissue; Eventually passes
+  * NCH-12b - RNA failure (concentration/amplification); Request more tissue from site; Obtain more tissue; Eventually passes
+  * NCH-12c - cDNA failure (amplification); Request more tissue from site; Obtain more tissue; Eventually passes
+  * NCH-12d - DNA/RNA failure (excessive degredation); Request more tissue from site; Obtain more tissue; Eventually passes
+  
+**Processing Failure sub-variations (eventually failure)**
+
+  * NCH-13a - DNA failure (concentration/amplification); Request more tissue from site; Cannot obtain more tissue; Failure
+  * NCH-13b - RNA failure (concentration/amplification); Request more tissue from site; Cannot obtain more tissue; Failure
+  * NCH-13c - cDNA failure (amplification); Request more tissue from site; Cannot obtain more tissue; Failure
+  * NCH-13d - DNA/RNA failure (excessive degredation); Request more tissue from site; Cannot obtain more tissue; Failure
+
+### Old Stuff to move.. ;-)
+---
+
+## Key Workflow Scenarios:
 * [NCH-1](NCH-1.md) - Reference Baseline
 * NCH-2 - Variation: Tumor arrives, Short delay, Blood arives (i.e., different shipments)
 * NCH-3 - Variation: Blood arrives, Short delay, Tumor arives (i.e., different shipments)
