@@ -16,7 +16,7 @@
 1. BPC enters path review forms into STARS.
 1. BPC coordinator receives paperwork from the previous day and QC specimens in STARS.
    1. Surgical event ID assigned to tumor specimen.
-   1. STARS poller sends specimen received messages; See [NCH-01b-IM-1](#nch-01b-im-1)
+   1. STARS poller sends specimen received messages; See [NCH-01B-IM-1](#nch-01b-im-1)
 1. Core Morph scrapes the tumor section of the slides into a vial.
 1. BPC picks up stained slides and vial of scrapings.
 1. BPC sends vial of scrapings to MGL.
@@ -33,7 +33,7 @@
 1. Relabel specimen vials with sequencing center requirements.
    1. Molecular ID in 2D barcode
 1. MGL physically ships and marks shipment in STARS as shipped.
-   1. STARS poller sends specimen shipped messages; See [NCH-01b-IM-2](#nch-01b-im-2)
+   1. STARS poller sends specimen shipped messages; See [NCH-01B-IM-2](#nch-01b-im-2)
 1. MGL runs identity panel on tumor and blood specimens.
 1. BPC banks stained slides.
 
@@ -127,7 +127,7 @@
 ---
 ## Integration Messages
 
-### NCH-01b-IM-1
+### NCH-01B-IM-1
 _(2 specimen received messages)_
 ```json
 {
@@ -226,7 +226,7 @@ _(2 specimen received messages)_
 }
 ```
 
-### NCH-1-IM-2
+### NCH-01B-IM-2
 _(5 specimen shipped messages)_
 
 ```json
