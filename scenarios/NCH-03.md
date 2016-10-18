@@ -1,12 +1,19 @@
 # Scenario NCH-02
 ## Summary
-- Tumor arrives, short delay, blood arrives
+- BLood arrives, short delay, tumor arrives
 - Processed as expected
 - Shipped as expected*
 
 ---
 ## Workflow
 1. Pediatric match email group receives enrollment notification.
+1. BPC receives blood.
+1. BPC accessions specimens in STARS.
+1. BPC sends specimens to MGL for processing.
+1. MGL extracts and QC DNA from blood specimens.
+1. BPC coordinator receives paperwork from the previous day and QC specimens in STARS.
+   1. STARS poller sends specimen received message; See [NCH-03-IM-1](#nch-03-im-1)
+1. [Delay]
 1. BPC receives tumor block (FFPE).
 1. BPC accessions specimens in STARS.
 1. BPC sends specimens to CM for processing.
@@ -16,14 +23,8 @@
 1. BPC takes H&E annotated slides and unstained slides back to CM for macro dissection.
 1. BPC enters path review forms into STARS.
 1. BPC coordinator receives paperwork from the previous day and QC specimens in STARS.
-   1. Surgical event ID assigned to tumor specimen.
-   1. STARS poller sends specimen received message; See [NCH-02-IM-1](#nch-02-im-1)
-1. [Delay]   
-1. BPC receives blood.
-1. BPC accessions specimens in STARS.
-   1. STARS poller sends specimen received message; See [NCH-02-IM-2](#nch-02-im-2)
-1. BPC sends specimens to MGL for processing.
-1. MGL extracts and QC DNA from blood specimens.
+   1. Surgical event ID assigned to tumor specimen
+   1. STARS poller sends specimen received message; See [NCH-03-IM-2](#nch-03-im-2)
 1. Core Morph scrapes the tumor section of the slides into a vial.
 1. BPC picks up stained slides and vial of scrapings.
 1. BPC sends vial of scrapings to MGL.
@@ -40,7 +41,7 @@
 1. Relabel specimen vials with sequencing center requirements.
    1. Molecular ID in 2D barcode
 1. MGL physically ships and marks shipment in STARS as shipped.
-   1. STARS poller sends specimen shipped messages; See [NCH-02-IM-3](#nch-02-im-3)
+   1. STARS poller sends specimen shipped messages; See [NCH-03-IM-3](#nch-03-im-3)
 1. MGL runs identity panel on tumor and blood specimens.
 1. BPC banks stained slides.
 
@@ -134,7 +135,7 @@
 ---
 ## Integration Messages
 
-### NCH-02-IM-1
+### NCH-03-IM-1
 _(1 specimen received message)_
 ```json
 {
@@ -145,21 +146,20 @@ _(1 specimen received message)_
   "specimen_received": {
     "study_id": "APEC1621",
     "patient_id": "894561",
-    "type": "TISSUE",
-    "surgical_event_id": "125",
+    "type": "BLOOD",
     "collection_dt": "2016-04-25",
     "received_dttm": "2016-04-25T12:34:56Z"
   },
   "internal_use_only": {
     "stars_patient_id": "ABCXYZ",
     "stars_specimen_id": "ABCXYZ-0AK64L",
-    "stars_specimen_type": "Paraffin Block Primary",
+    "stars_specimen_type": "Blood Fresh",
     "received_dttm": "2016-04-25T12:34:56Z",
     "qc_dttm": "2016-04-25T13:45:56Z"
   }
 }
 ```
-### NCH-02-IM-2
+### NCH-03-IM-2
 _(1 specimen received message)_
 ```json
 {
@@ -170,21 +170,22 @@ _(1 specimen received message)_
   "specimen_received": {
     "study_id": "APEC1621",
     "patient_id": "894561",
-    "type": "BLOOD",
+    "type": "TISSUE",
+    "surgical_event_id": "125",
     "collection_dt": "2016-04-30",
     "received_dttm": "2016-04-30T13:30:05Z"
   },
   "internal_use_only": {
     "stars_patient_id": "ABCXYZ",
     "stars_specimen_id": "ABCXYZ-0AK64M",
-    "stars_specimen_type": "Blood Fresh",
+    "stars_specimen_type": "Paraffin Block Primary",
     "received_dttm": "2016-04-30T13:30:05Z",
     "qc_dttm": "2016-05-01T09:30:05Z"
   }
 }
 ```
 
-### NCH-02-IM-3
+### NCH-03-IM-3
 _(5 specimen shipped messages)_
 
 ```json
