@@ -1,8 +1,11 @@
 # Scenario NCH-1
-*Reference Baseline - All received in same shipment; processed as expected; shipped as expected*
+## Summary
+- All received in same shipment
+- Processed as expected
+- Shipped as expected*
 
 ---
-#### Workflow
+## Workflow
 1. Pediatric match email group receives enrollment notification.
 1. BPC receives blood and tumor block (FFPE).
 1. BPC accessions specimens in STARS.
@@ -37,9 +40,9 @@
 1. BPC banks stained slides.
 
 ---
-#### Specimen Labels - Sequencing
+## Specimen Labels - Sequencing
 
-###### Specimen #1 (DNA from Blood)
+### Specimen #1 (DNA from Blood)
 
 ||||
 |----------------|-----------------|----------------|
@@ -51,7 +54,7 @@
 | **Concentration**  | 25 ng/ul        |                |
 | **Volume**        | 10 ul           |                |
 
-###### Specimen #2 (DNA extracted from Tumor)
+### Specimen #2 (DNA extracted from Tumor)
 
 ||||
 |----------------|-----------------|----------------|
@@ -64,7 +67,7 @@
 | **Concentration**  | 25 ng/ul        |                |
 | **Volume**          | 10 ul           |                |
 
-###### Specimen #3 (cDNA generated from Tumor)
+### Specimen #3 (cDNA generated from Tumor)
 
 ||||
 |----------------|-----------------|----------------|
@@ -77,9 +80,9 @@
 | **Concentration**  |                 |                |
 | **Volume**          | 10 ul           |                |
 
-#### Specimen Labels - Slides
+## Specimen Labels - Slides
 
-###### Slide Specimen #1
+### Slide Specimen #1
 
 ||||
 |----------------|-----------------|----------------|
@@ -90,7 +93,7 @@
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
-###### Slide Specimen #2
+### Slide Specimen #2
 
 ||||
 |----------------|-----------------|----------------|
@@ -101,7 +104,7 @@
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
-###### Slide Specimen #3
+### Slide Specimen #3
 
 ||||
 |----------------|-----------------|----------------|
@@ -113,20 +116,20 @@
 | **Block #**     | B          |           |
 
 ---
-#### Shipping Manifests
+## Shipping Manifests
 
 ---
-###### Sequencing Specimens
+### Sequencing Specimens
 ![Image](../documents/Nucleic Acid Pedatric match shipping manfiest 5.xls.png)
 
 ---
-###### Slide Specimens
+### Slide Specimens
 ![Image](../documents/Slides Pedatric match shipping manfiest 5.xls.png)
 
 ---
-##### Integration Messages
+## Integration Messages
 
-###### NCH-01-IM-1
+### NCH-01-IM-1
 _(2 specimen received messages)_
 ```json
 {
@@ -175,7 +178,7 @@ _(2 specimen received messages)_
 }
 ```
 
-##### NCH-1-IM-2
+### NCH-1-IM-2
 _(5 specimen shipped messages)_
 
 ```json
