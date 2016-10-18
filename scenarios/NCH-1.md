@@ -74,7 +74,7 @@
 | **Registration #** | 894561          | _(Patient ID)_ |
 | **Surgical Event ID** | 125          |                |
 | **NCH Barcode**    | 0BJ6A5          |                |
-| **2D Barcode**     | 0BJ6A5          | _(NCH Barcode)_     |
+| **2D Barcode**     | 125             | _(Surgical Event ID)_     |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
@@ -85,7 +85,7 @@
 | **Registration #** | 894561          | _(Patient ID)_ |
 | **Surgical Event ID** | 125          |                |
 | **NCH Barcode**    | 0BJ6A6          |                |
-| **2D Barcode**     | 0BJ6A6          | _(NCH Barcode)_          |
+| **2D Barcode**     | 125          | _(Surgical Event ID)_          |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
@@ -96,7 +96,7 @@
 | **Registration #** | 894561          | _(Patient ID)_ |
 | **Surgical Event ID** | 125          |                |
 | **NCH Barcode**    | 0BJ6A7          |                |
-| **2D Barcode**     | 0BJ6A7          | _(NCH Barcode)_          |
+| **2D Barcode**     | 125          | _(Surgical Event ID)_          |
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
