@@ -3,10 +3,10 @@
 **Variations by Specimen Arrival**
 
   * [NCH-01a](NCH-01a.md) - NCH receives blood and tumor block in same shipment
-  * NCH-01b - NCH receives blood and slides (stained/unstained) in same shipment
+  * [NCH-01b](NCH-01b.md) - NCH receives blood and slides (stained/unstained) in same shipment
   * NCH-01c - NCH receives blood and slides (unstained) in same shipment
-  * NCH-02 - NCH receives tumor block then blood in different shipments
-  * NCH-03 - NCH receives blood then tumor block in different shipments
+  * [NCH-02](NCH-02.md) - NCH receives tumor block then blood in different shipments
+  * [NCH-03](NCH-03.md) - NCH receives blood then tumor block in different shipments
   * NCH-04 - NCH receives tumor block then blood after lengthy delay (tumor specimens already shipped for sequencing)
   * NCH-05 - NCH receives tumor block but blood never arrives/available
   * NCH-06 - NCH receives blood then tumor block after lengthy delay
@@ -29,7 +29,7 @@
   * NCH-12b - RNA failure (concentration/amplification); Request more tissue from site; Obtain more tissue; Eventually passes
   * NCH-12c - cDNA failure (amplification); Request more tissue from site; Obtain more tissue; Eventually passes
   * NCH-12d - DNA/RNA failure (excessive degredation); Request more tissue from site; Obtain more tissue; Eventually passes
-  
+
 **Processing Failure sub-variations (eventually failure)**
 
   * NCH-13a - DNA failure (concentration/amplification); Request more tissue from site; Cannot obtain more tissue; Failure
