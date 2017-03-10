@@ -5,5 +5,5 @@
 * [Scenarios](scenarios/README.md)
 
 ## Tentative Milestone Dates
-Fit for Purpose Testing - April 15
-Go Live - May ??
+* Fit for Purpose Testing - April 15  
+* Go Live - May ??
