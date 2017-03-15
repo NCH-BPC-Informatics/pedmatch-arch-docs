@@ -5,5 +5,7 @@
 * [Scenarios](scenarios/README.md)
 
 ## Tentative Milestone Dates
-* Fit for Purpose Testing - April 15  
-* Go Live - May ??
+* BPC/MGL Internal Testing - March 20th
+* Site visit by NCH – April 6th
+* Fit for Purpose – April
+* Study Activation / Go Live - May 15
