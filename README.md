@@ -10,23 +10,20 @@
 * Fit for Purpose – April 24 - 28
 * Study Activation / Go Live - May 15
 
-
-
-
 ## Pediatric match Fit for Purpose testing:
 
 1)	COG will enroll three fake patient into their test system.  
 2)	COG will provide Will Parsons with the three reg number to label specimens. 
-3)	Will Parsons lab has pulled three tumor and three blood specimens for Fit for purpose testing
-  o	Blood and tumor will not be matched pairs
-  o	It is unclear if the blood will be frozen/fresh or processed ficolled/lysed
-  o	Tumor samples will be pediatric cancer samples
-4)	Parson’s lab will ship the tumor and blood specimens to the BP.
-  o	Specimens should be labeled with the registration number COG enrolled for testing.
-  o	Path reports will be included, but they may not be official.  They will likely be de identified and sections cut and copied onto a document sent to us.
-  o	Specimens should also come with a completed transmittal form and a site contact form. 
+3)	Will Parsons lab has pulled three tumor and three blood specimens for Fit for purpose testing  
+  o	Blood and tumor will not be matched pairs  
+  o	It is unclear if the blood will be frozen/fresh or processed ficolled/lysed  
+  o	Tumor samples will be pediatric cancer samples  
+4)	Parson’s lab will ship the tumor and blood specimens to the BP.  
+  o	Specimens should be labeled with the registration number COG enrolled for testing.  
+  o	Path reports will be included, but they may not be official.  They will likely be de identified and sections cut and copied onto a document sent to us.  
+  o	Specimens should also come with a completed transmittal form and a site contact form.   
 5)	BPC processing lab will receive the package.
-6)	BPC will accession specimens into STARS UAT4.
+6)	BPC will accession specimens into STARS UAT4.  
   o	Standard QC process should occur. 
 7)	BPC processing lab will send the blood specimens to MGL for extraction via a MGL request.
 8)	BPC processing lab will send tumor blocks to CM to have slides cut via CM request.
@@ -36,7 +33,7 @@
 12)	Dr. Conces will complete review and mark slide for macro dissection. 
 13)	Shountea will enter the path review information into STARS.
 14)	Shountea will create a macro dissection request in STARS for CM.  Stain slide will be dropped off to CM. 
-15)	Shountea will QC specimens in STARS.
+15)	Shountea will QC specimens in STARS.  
   o	Received message will be sent to MATCHbox
 16)	CM will macro dissect slide and create paraffin scrapings.
 17)	Shountea will pick up scrapings from CM.  She will also inherit the path review to the correct specimens.
@@ -49,8 +46,8 @@
 24)	MGL will notify the BPC that specimens are ready to ship.
 25)	BPC will contact MD Anderson and MOCHA to see if they are ready for the Fit for Purpose test specimens. 
 26)	MGL will drop off nucleic acid specimens and send to MGL in STARS.
-27)	BPC will prepare shipments.
-  o	Nucleic acid specimens need to go to MD Anderson and MOCHA.  Need to decide who gets 1 and who gets 2.
+27)	BPC will prepare shipments.  
+  o	Nucleic acid specimens need to go to MD Anderson and MOCHA.  Need to decide who gets 1 and who gets 2.  
   o	All slides for IHC will go to MD Anderson.
   o	Each case will need to have a shipping manifest, copy of path report, and site contact form (per package).
 28)	BPC will ship specimens and send electronic copy of shipping manifest to the MD Anderson and MOCHA.  Specimens marked as shipped in STARS.
