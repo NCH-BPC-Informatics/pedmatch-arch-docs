@@ -10,7 +10,7 @@
 * Fit for Purpose – April 24 - 28
 * Study Activation / Go Live - May 15
 
-## Pediatric match Fit for Purpose testing:
+## Pediatric Match Fit for Purpose testing:
 
 1)	COG will enroll three fake patient into their test system.  
 2)	COG will provide Will Parsons with the three reg number to label specimens. 
