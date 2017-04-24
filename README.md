@@ -4,13 +4,19 @@
 * [Presentations and Schematics](schematics)
 * [Scenarios](scenarios/README.md)
 
+## Project Contacts
+- VIPER Contacts (digitial image review)
+  - Dr. Stanley Hamilton and Dr. Savitri Krishnamurthy
+  - Contact Leslie in production (keep Leslie as user)
+  - Ryan Pepper (MDA) - RCPepper@mdanderson.org
+
 ## Tentative Milestone Dates
 * BPC/MGL Internal Testing - March 20th
 * Site visit by NCH – April 6th
 * Fit for Purpose – April 24 - 28
 * Study Activation / Go Live - May 15
 
-## Pediatric Match Fit for Purpose testing:
+## Pediatric Match Fit for Purpose Testing Plan:
 
 1)	COG will enroll three fake patient into their test system.  
 2)	COG will provide Will Parsons with the three reg number to label specimens. 
