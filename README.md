@@ -29,7 +29,7 @@
   o	Path reports will be included, but they may not be official.  They will likely be de identified and sections cut and copied onto a document sent to us.  
   o	Specimens should also come with a completed transmittal form and a site contact form.   
 5)	BPC processing lab will receive the package.
-6)	BPC will accession specimens into STARS UAT4.  
+6)	BPC will accession specimens into 'STARS_PedsMatch_Fit' test enviroment.  
   o	Standard QC process should occur. 
 7)	BPC processing lab will send the blood specimens to MGL for extraction via a MGL request.
 8)	BPC processing lab will send tumor blocks to CM to have slides cut via CM request.
