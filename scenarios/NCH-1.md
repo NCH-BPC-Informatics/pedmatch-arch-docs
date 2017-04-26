@@ -1,11 +1,14 @@
 # Scenario NCH-1
-*Reference Baseline - All received in same shipment; processed as expected; shipped as expected*
+## Summary
+- All received in same shipment
+- processed as expected
+- shipped as expected*
 
 ---
-#### Workflow
+## Workflow
 1. Blood and Tumor received in same shipment
 * Specimens accessioned into STARS
-* Blood sent to MGL (for DNA extraction, etc.) 
+* Blood sent to MGL (for DNA extraction, etc.)
 * Block sent to Core Morph (to cut slides)
 * Paperwork given to coordinator (next day)
 * Paperwork QC'd against STARS accessioning info
@@ -14,7 +17,7 @@
 * Stained slide sent to path reviewer
 * Block remaining, if any, banked at BPC
 * Slides held by BPC (for later shipment to MDA for IHC)
-* Unstained slides cut for extraction sent to Core Morph 
+* Unstained slides cut for extraction sent to Core Morph
 * Unstained slides scrapings sent to BPC
 * Unstained slide scrapings sent to MGL for extraction
 * MGL extracts DNA from blood and records yield, QC, etc. in STARS
@@ -25,9 +28,9 @@
 * STARS poller sends specimen shipped messages; See [NCH-1-IM-2](#nch-1-im-2)
 
 ---
-#### Specimen Labels - Sequencing
+## Specimen Labels - Sequencing
 
-###### Specimen #1 (DNA from Blood)
+### Specimen #1 (DNA from Blood)
 
 ||||
 |----------------|-----------------|----------------|
@@ -39,7 +42,7 @@
 | **Concentration**  | 25 ng/ul        |                |
 | **Volume**        | 10 ul           |                |
 
-###### Specimen #2 (DNA extracted from Tumor)
+### Specimen #2 (DNA extracted from Tumor)
 
 ||||
 |----------------|-----------------|----------------|
@@ -52,7 +55,7 @@
 | **Concentration**  | 25 ng/ul        |                |
 | **Volume**          | 10 ul           |                |
 
-###### Specimen #3 (cDNA generated from Tumor)
+### Specimen #3 (cDNA generated from Tumor)
 
 ||||
 |----------------|-----------------|----------------|
@@ -65,9 +68,9 @@
 | **Concentration**  |                 |                |
 | **Volume**          | 10 ul           |                |
 
-#### Specimen Labels - Slides
+## Specimen Labels - Slides
 
-###### Slide Specimen #1
+### Slide Specimen #1
 
 ||||
 |----------------|-----------------|----------------|
@@ -78,7 +81,7 @@
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
-###### Slide Specimen #2
+### Slide Specimen #2
 
 ||||
 |----------------|-----------------|----------------|
@@ -89,7 +92,7 @@
 | **Specimen Type**            | Paraffin Unstained Primary          |                |
 | **Block #**     | B          |           |
 
-###### Slide Specimen #3
+### Slide Specimen #3
 
 ||||
 |----------------|-----------------|----------------|
@@ -101,40 +104,40 @@
 | **Block #**     | B          |           |
 
 ---
-#### Shipping Manifests
+## Shipping Manifests
 
 ---
-###### Sequencing Specimens
+### Sequencing Specimens
 ![Image](../documents/Nucleic Acid Pedatric match shipping manfiest 5.xls.png)
 
 ---
-###### Slide Specimens
+### Slide Specimens
 ![Image](../documents/Slides Pedatric match shipping manfiest 5.xls.png)
 
 ---
-##### Integration Messages
+## Integration Messages
 
-###### NCH-1-IM-1
+### NCH-1-IM-1
 _(2 specimen received messages)_
 ```json
 {
   "header": {
     "msg_guid": "5c64192f-8a25-4874-9db6-fd55c398822d",
-    "msg_dttm": "2016-04-25T18:42:13+00:00"
+    "msg_dttm": "2016-04-25T18:42:13Z"
   },
   "specimen_received": {
     "study_id": "APEC1621",
     "patient_id": "894561",
     "type": "BLOOD",
-    "collection_dttm": "2016-04-25T14:17:11+00:00",
-    "received_dttm": "2016-04-25T15:17:11+00:00",
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0AK64L",
-      "stars_specimen_type": "Blood Fresh",
-      "received_dttm": "2016-04-25T15:17:11+00:00",
-      "qc_dttm": "2016-04-25T16:21:34+00:00"
-    }
+    "collection_dt": "2016-04-25",
+    "received_dttm": "2016-04-25T12:34:56Z"
+  },
+  "internal_use_only": {
+    "stars_patient_id": "ABCXYZ",
+    "stars_specimen_id": "ABCXYZ-0AK64L",
+    "stars_specimen_type": "Blood Fresh",
+    "received_dttm": "2016-04-25T12:34:56Z",
+    "qc_dttm": "2016-04-25T13:45:56Z"
   }
 }
 ```
@@ -143,34 +146,34 @@ _(2 specimen received messages)_
 {
   "header": {
     "msg_guid": "ab6d8d37-caf2-4dbb-a360-0032c7a7a76c",
-    "msg_dttm": "2016-04-25T18:42:13+00:00"
+    "msg_dttm": "2016-04-25T18:42:13Z"
   },
   "specimen_received": {
     "study_id": "APEC1621",
     "patient_id": "894561",
     "type": "TISSUE",
-    "surgical_event_id": "125", 
-    "collection_dttm": "2016-04-25T14:17:11+00:00",
-    "received_dttm": "2016-04-25T15:17:11+00:00",
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0AK64M",
-      "stars_specimen_type": "Paraffin Block Primary",
-      "received_dttm": "2016-04-25T15:17:11+00:00",
-      "qc_dttm": "2016-04-25T16:21:34+00:00"
-    }
+    "surgical_event_id": "125",
+    "collection_dt": "2016-04-25",
+    "received_dttm": "2016-04-25T15:17:11Z"
+  },
+  "internal_use_only": {
+    "stars_patient_id": "ABCXYZ",
+    "stars_specimen_id": "ABCXYZ-0AK64M",
+    "stars_specimen_type": "Paraffin Block Primary",
+    "received_dttm": "2016-04-25T15:17:11Z",
+    "qc_dttm": "2016-04-25T16:21:34Z"
   }
 }
 ```
 
-##### NCH-1-IM-2
+### NCH-1-IM-2
 _(5 specimen shipped messages)_
 
 ```json
 {
   "header": {
     "msg_guid": "7912901b-7285-40cc-9269-1cae961a0ea7",
-    "msg_dttm": "2016-05-01T19:42:13+00:00"
+    "msg_dttm": "2016-05-01T19:42:13Z"
   },
   "specimen_shipped": {
     "study_id": "APEC1621",
@@ -180,13 +183,13 @@ _(5 specimen shipped messages)_
     "destination": "MDA",
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
-    "shipped_dttm": "2016-05-01T19:42:13+00:00",
+    "shipped_dttm": "2016-05-01T19:42:13Z",
     "dna_volume_ul": 10,
-    "dna_concentration_ng_per_ul": 25,
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ64A"
-    }
+    "dna_concentration_ng_per_ul": 25
+  },
+  "internal_use_only": {
+    "stars_patient_id": "ABCXYZ",
+    "stars_specimen_id": "ABCXYZ-0BJ64A"
   }
 }
 ```
@@ -195,7 +198,7 @@ _(5 specimen shipped messages)_
 {
   "header": {
     "msg_guid": "3037ddec-0081-4e22-8448-721ab4ad76b4",
-    "msg_dttm": "2016-05-01T19:42:13+00:00"
+    "msg_dttm": "2016-05-01T19:42:13Z"
   },
   "specimen_shipped": {
     "study_id": "APEC1621",
@@ -206,15 +209,15 @@ _(5 specimen shipped messages)_
     "destination": "MDA",
     "carrier": "Federal Express",
     "tracking_id": "7956 4568 1235",
-    "shipped_dttm": "2016-05-01T19:42:13+00:00",
+    "shipped_dttm": "2016-05-01T19:42:13Z",
     "dna_volume_ul": 10,
     "dna_concentration_ng_per_ul": 25,
-    "cdna_volume_ul": 10,
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id_dna": "ABCXYZ-0BJ64B",
-      "stars_specimen_id_cdna": "ABCXYZ-0BJ64F"
-    }
+    "cdna_volume_ul": 10
+  },
+  "internal_use_only": {
+    "stars_patient_id": "ABCXYZ",
+    "stars_specimen_id_dna": "ABCXYZ-0BJ64B",
+    "stars_specimen_id_cdna": "ABCXYZ-0BJ64F"
   }
 }
 ```
@@ -223,7 +226,7 @@ _(5 specimen shipped messages)_
 {
   "header": {
     "msg_guid": "37c491ec-d91a-4e95-a0cf-291dadf60b2f",
-    "msg_dttm": "2016-05-02T18:30:17+00:00"
+    "msg_dttm": "2016-05-02T18:30:17Z"
   },
   "specimen_shipped": {
     "study_id": "APEC1621",
@@ -234,11 +237,11 @@ _(5 specimen shipped messages)_
     "destination": "MDA",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
-    "shipped_dttm": "2016-05-02T18:30:17+00:00",
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ6A5"
-    }
+    "shipped_dttm": "2016-05-02T18:30:17Z"
+  },
+  "internal_use_only": {
+    "stars_patient_id": "ABCXYZ",
+    "stars_specimen_id": "ABCXYZ-0BJ6A5"
   }
 }
 ```
@@ -247,7 +250,7 @@ _(5 specimen shipped messages)_
 {
   "header": {
     "msg_guid": "0cbfe261-293b-4ef2-ade6-eec2e342bb57",
-    "msg_dttm": "2016-05-02T18:30:17+00:00"
+    "msg_dttm": "2016-05-02T18:30:17Z"
   },
   "specimen_shipped": {
     "study_id": "APEC1621",
@@ -258,11 +261,11 @@ _(5 specimen shipped messages)_
     "destination": "MDA",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
-    "shipped_dttm": "2016-05-02T18:30:17+00:00",
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ6A6"
-    }
+    "shipped_dttm": "2016-05-02T18:30:17Z"
+  },
+  "internal_use_only": {
+    "stars_patient_id": "ABCXYZ",
+    "stars_specimen_id": "ABCXYZ-0BJ6A6"
   }
 }
 ```
@@ -271,7 +274,7 @@ _(5 specimen shipped messages)_
 {
   "header": {
     "msg_guid": "5c5f38ea-c2b4-4519-b252-82d8b8043975",
-    "msg_dttm": "2016-05-02T18:30:17+00:00"
+    "msg_dttm": "2016-05-02T18:30:17Z"
   },
   "specimen_shipped": {
     "study_id": "APEC1621",
@@ -282,11 +285,11 @@ _(5 specimen shipped messages)_
     "destination": "MDA",
     "carrier": "Federal Express",
     "tracking_id": "1234 1234 1234",
-    "shipped_dttm": "2016-05-02T18:30:17+00:00",
-    "internal_use_only": {
-      "stars_patient_id": "ABCXYZ",
-      "stars_specimen_id": "ABCXYZ-0BJ6A7"
-    }
+    "shipped_dttm": "2016-05-02T18:30:17Z",
+  },
+  "internal_use_only": {
+    "stars_patient_id": "ABCXYZ",
+    "stars_specimen_id": "ABCXYZ-0BJ6A7"
   }
 }
 ```
