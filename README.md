@@ -13,8 +13,15 @@
 ## Tentative Milestone Dates
 * BPC/MGL Internal Testing - March 20th
 * Site visit by NCH – April 6th
-* Fit for Purpose – April 24 - 28
+* Fit for Purpose – May 8 - 19
 * Study Activation / Go Live - May 15
+
+## Testing Enviroments
+- STARS UAT 1 - BPCI QA Testing  
+- STARS UAT 2 - BPC/MGL Stars User Acceptance Testing  
+- STARS UAT 3 - BPC/MGL Interal Integration Testing   
+- STARS UAT 4 - External 4 way Integration Testing  
+- StarsPedsmatchFit - Fit for Purpose External Integration Testing  
 
 ## Pediatric Match Fit for Purpose Testing Plan:
 
