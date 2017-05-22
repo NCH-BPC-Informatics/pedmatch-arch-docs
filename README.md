@@ -12,9 +12,9 @@
 
 ## Tentative Milestone Dates
 * BPC/MGL Internal Testing - March 20th
-* Site visit by NCH – April 6th
-* Fit for Purpose – May 8 - 19
-* Study Activation / Go Live - May 15
+* Site visit by NCI – April 6th
+* Fit for Purpose – May 22 - 26
+* Study Activation / Go Live - June 15
 
 ## Testing Enviroments
 - STARS UAT 1 - BPCI QA Testing  
